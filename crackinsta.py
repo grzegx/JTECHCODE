@@ -1,4 +1,3 @@
-
 import requests
 import json
 import time
@@ -17,7 +16,7 @@ def Input(text):
 
 #The main class
 class Instabrute():
-	def __init__(self, username, passwordsFile='password.txt'):
+	def __init__(self, username, passwordsFile='pass.txt'):
 		self.username = username
 		self.CurrentProxy = ''
 		self.UsedProxys = []
