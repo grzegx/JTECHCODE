@@ -1,7 +1,8 @@
 # crackinsta
 This tool is combained from 
-CUPP - Common User Passwords Profiler Tool
-+ Crackinsta Tool.
++ CUPP - Common User Passwords Profiler Tool
++ Crackinsta Tool
+
 Added extra proxy list and if you can add more proxy list.
 # Requirements 
 python3
