@@ -61,7 +61,7 @@ class Instabrute():
 		try:
 			print('')
 			print('[*] Check new ip...')
-			print ('[*] Your public ip: %s' % requests.get('http://myexternalip.com/raw', proxies={ "http": proxy, "https": proxy },timeout=10.0).text)
+			print ('[*] Your public ip: %s' % requests.get('http://myexternalip.com/raw', proxies={ "http": proxy, "https": proxy },timeout=1000000.0).text)
 		except Exception as e:
 			print  ('[*] Can\'t reach proxy "%s"' % proxy)
 		print('')
